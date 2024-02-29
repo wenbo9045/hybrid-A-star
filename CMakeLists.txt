@@ -11,7 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
     tf
     )
 ## OPEN MOTION PLANNING LIBRARY
-find_package(OMPL REQUIRED)
+find_package(ompl REQUIRED)
 
 if(NOT OMPL_FOUND)
     message(AUTHOR_WARNING,"Open Motion Planning Library not found")
